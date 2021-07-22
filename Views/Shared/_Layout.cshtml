@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+
+<body>
+    <header class="header border-bottom">
+        <nav class="navbar">
+            <img src="/images/logo.png" class="left" />
+            <a class="header btn" asp-area="" asp-controller="Home" asp-action="Index">Página Principal</a>
+            <div class="dropdown">
+                <button class="dropbtn" data-toggle="dropdown">Usuário</button>
+                <div class="dropdown-content" role="menu">
+                    <a class="header" asp-area="" asp-controller="Usuario" asp-action="Login">Login</a>
+                    <a class="header" asp-area="" asp-controller="Usuario" asp-action="Logout">Logout</a>
+                    <a class="header" asp-area="" asp-controller="Usuario" asp-action="Cadastro">Cadastro</a>
+                    <a class="header" asp-area="" asp-controller="Usuario" asp-action="Listar">Listar</a>
+                    <a class="header" asp-area="" asp-controller="Usuario" asp-action="Editar">Editar</a>
+                    <a class="header" asp-area="" asp-controller="Usuario" asp-action="Deletar">Deletar</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn" data-toggle="dropdown">Notas</button>
+                <div class="dropdown-content" role="menu">
+                    <a class="header" asp-area="" asp-controller="NotaAluno" asp-action="Publicar">Publicar Nota</a>
+                    <a class="header" asp-area="" asp-controller="NotaAluno" asp-action="ListarNota">Listar Nota</a>
+                    <a class="header" asp-area="" asp-controller="NotaAluno" asp-action="EditarNota">Editar Nota</a>
+                    <a class="header" asp-area="" asp-controller="NotaAluno" asp-action="DeletarNota">Deletar Nota</a>
+                </div>
+            </div>
+            <a class="header btn" asp-area="" asp-controller="Home" asp-action="QuemSomos">Quem Somos</a>
+            <a class="header btn" asp-area="" asp-controller="Home" asp-action="Contato">Contato</a>
+        </nav>
+    </header>
+    <main role="main">
+        @RenderBody()
+    </main>
+    <footer class="border-top footer">
+        &copy; 2021 - Escola Céu Azul
+    </footer>
+</body>
+
+</html>

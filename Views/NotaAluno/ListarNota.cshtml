@@ -1,0 +1,43 @@
+@model IEnumerable<NotaAluno>
+@{
+    ViewData["Title"] = "Listagem de Notas";
+}
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+
+</head>
+
+<body>
+
+    <div class="center divbox">
+        <h2>Veja suas notas:</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Matéria</th>
+                    <th scope="col">Nota</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (NotaAluno noal in Model)
+                {
+                    <tr>
+                        <td>@noal.Id</td>
+                        <td>@noal.Materia</td>
+                        <td>@noal.Nota</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+</body>
+
+</html>

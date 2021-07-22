@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\yanna\\Documents\\Senac\\C#\\EscolaParticular\\EscolaParticular.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\yanna\\Documents\\Senac\\C#\\EscolaParticular\\EscolaParticular.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\yanna\\Documents\\Senac\\C#\\EscolaParticular\\EscolaParticular.csproj",
+        "projectName": "EscolaParticular",
+        "projectPath": "C:\\Users\\yanna\\Documents\\Senac\\C#\\EscolaParticular\\EscolaParticular.csproj",
+        "packagesPath": "C:\\Users\\yanna\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yanna\\Documents\\Senac\\C#\\EscolaParticular\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\yanna\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[1.3.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

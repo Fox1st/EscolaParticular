@@ -1,0 +1,59 @@
+@model IEnumerable<Usuario>
+@{
+    ViewData["Title"] = "Listagem de Usuários";
+}
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+
+</head>
+
+<body>
+
+    <div class="center divbox">
+        <h2>Listagem de Usuários</h2>
+        <form method="POST" id="usuario">
+            <p>
+                <label for="usuario">Tipo do Usuário:</label>
+                <select id="usuario" form="usuario" name="usuario">
+                    <option value="D">Diretor</option>
+                    <option value="M">Managers</option>
+                    <option value="P">Professores</option>
+                    <option value="A">Alunos</option>
+                </select>
+                <input type="submit" value="Listar" />
+            </p>
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Login</th>
+                    <th scope="col">Senha</th>
+                    <th scope="col">Tipo Usuário</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (Usuario usr in Model)
+                {
+                    <tr>
+                        <td>@usr.Id</td>
+                        <td>@usr.Nome</td>
+                        <td>@usr.Login</td>
+                        <td>@usr.Senha</td>
+                        <td>@usr.TipoUsuario</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+@model NotaAluno
+@{
+    ViewData["Title"] = "Editar Nota";
+}
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+
+</head>
+
+<body>
+
+    <div class="left divbox">
+        <h2>Editar Nota</h2>
+        <p id="pMensagem">@ViewBag.Mensagem</p>
+        <form asp-action="EditarNota" method="POST">
+            <p>
+                <label asp-for="Materia">Matéria:</label>
+                <input asp-for="Materia" />
+            </p>
+            <p>
+                <label asp-for="Nota">Nota:</label>
+                <input asp-for="Nota" />
+            </p>
+            <p>
+                <label asp-for="IdAluno">Id do Aluno:</label>
+                <input asp-for="IdAluno" />
+            </p>
+            <p>
+                <label asp-for="Id">Id:</label>
+                <input asp-for="Id" />
+            </p>
+            <p>
+                <input type="submit" value="Editar" />
+            </p>
+        </form>
+    </div>
+
+</body>
+
+</html>
