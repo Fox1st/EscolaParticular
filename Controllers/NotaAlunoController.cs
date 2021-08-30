@@ -27,7 +27,6 @@ namespace EscolaParticular.Controllers
         {
             NotaAlunoRepository newna = new NotaAlunoRepository();
             newna.Insert(cna);
-            ViewBag.Mensagem = "Nota publicada com sucesso";
             return View();
         }
         public IActionResult ListarNota()
@@ -60,7 +59,6 @@ namespace EscolaParticular.Controllers
         {
             NotaAlunoRepository newna = new NotaAlunoRepository();
             newna.Update(notas);
-            ViewBag.Mensagem = "Nota editada com sucesso";
             return View();
         }
         public IActionResult DeletarNota()
@@ -83,7 +81,6 @@ namespace EscolaParticular.Controllers
         {
             NotaAlunoRepository newna = new NotaAlunoRepository();
             newna.Delete(id);
-            ViewBag.Mensagem = "Nota deletada com sucesso";
             return View();
         }
     }

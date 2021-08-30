@@ -14,33 +14,44 @@
 
 <body>
 
-    <div class="left divbox">
+    <div class="divbox">
         <h2>Editar Usuário</h2>
-        <p id="pMensagem">@ViewBag.Mensagem</p>
-        <form asp-action="Editar" method="POST">
-            <p>
-                <label asp-for="Nome">Nome:</label>
-                <input asp-for="Nome" />
-            </p>
-            <p>
-                <label asp-for="Login">Login:</label>
-                <input asp-for="Login" />
-            </p>
-            <p>
-                <label asp-for="Senha">Senha:</label>
-                <input asp-for="Senha" />
-            </p>
-            <p>
-                <label asp-for="TipoUsuario">Tipo Usuário:</label>
-                <input asp-for="TipoUsuario" />
-            </p>
-            <p>
-                <label asp-for="Id">Id:</label>
-                <input asp-for="Id" />
-            </p>
-            <p>
-                <input type="submit" value="Editar" />
-            </p>
+        <form asp-action="Editar" method="POST" id="userEdit">
+            <div class="form-group row">
+                <label asp-for="Nome" class="col-sm-2 col-form-label">Nome:</label>
+                <div class="col-sm-10">
+                    <input asp-for="Nome" class="form-control" required/>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label asp-for="Login" class="col-sm-2 col-form-label">Login:</label>
+                <div class="col-sm-10">
+                    <input asp-for="Login" class="form-control" required/>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label asp-for="Senha" class="col-sm-2 col-form-label">Senha:</label>
+                <div class="col-sm-10">
+                    <input asp-for="Senha" class="form-control" required/>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label asp-for="TipoUsuario" class="col-sm-2 col-form-label">Tipo Usuário:</label>
+                <div class="col-sm-10">
+                    <input asp-for="TipoUsuario" class="form-control" required/>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label asp-for="Id" class="col-sm-2 col-form-label">Id:</label>
+                <div class="col-sm-10">
+                    <input asp-for="Id" class="form-control" required/>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-10">
+                    <input type="submit" value="Editar" class="btn btn-primary"/>
+                </div>
+            </div>
         </form>
     </div>
 

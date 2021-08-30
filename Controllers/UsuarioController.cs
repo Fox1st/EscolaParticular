@@ -56,7 +56,6 @@ namespace EscolaParticular.Controllers
         {
             UsuarioRepository cusr = new UsuarioRepository();
             cusr.Insert(usr);
-            ViewBag.Mensagem = "Usuario cadastrado com sucesso";
             return View();
         }
         public IActionResult Listar()
@@ -104,7 +103,6 @@ namespace EscolaParticular.Controllers
         {
             UsuarioRepository nusr = new UsuarioRepository();
             nusr.Update(usr);
-            ViewBag.Mensagem = "Usuario editado com sucesso";
             return View();
         }
         public IActionResult Deletar()
@@ -127,7 +125,6 @@ namespace EscolaParticular.Controllers
         {
             UsuarioRepository nusr = new UsuarioRepository();
             nusr.Delete(id);
-            ViewBag.Mensagem = "Usuario deletado com sucesso";
             return View();
         }
     }

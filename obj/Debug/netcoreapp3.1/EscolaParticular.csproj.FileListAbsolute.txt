@@ -1,6 +1,5 @@
 C:\Users\yanna\Documents\Senac\C#\EscolaParticular\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\yanna\Documents\Senac\C#\EscolaParticular\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\yanna\Documents\Senac\C#\EscolaParticular\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\yanna\Documents\Senac\C#\EscolaParticular\bin\Debug\netcoreapp3.1\EscolaParticular.exe
 C:\Users\yanna\Documents\Senac\C#\EscolaParticular\bin\Debug\netcoreapp3.1\EscolaParticular.deps.json
 C:\Users\yanna\Documents\Senac\C#\EscolaParticular\bin\Debug\netcoreapp3.1\EscolaParticular.runtimeconfig.json
@@ -10,7 +9,6 @@ C:\Users\yanna\Documents\Senac\C#\EscolaParticular\bin\Debug\netcoreapp3.1\Escol
 C:\Users\yanna\Documents\Senac\C#\EscolaParticular\bin\Debug\netcoreapp3.1\EscolaParticular.Views.dll
 C:\Users\yanna\Documents\Senac\C#\EscolaParticular\bin\Debug\netcoreapp3.1\EscolaParticular.Views.pdb
 C:\Users\yanna\Documents\Senac\C#\EscolaParticular\bin\Debug\netcoreapp3.1\MySqlConnector.dll
-C:\Users\yanna\Documents\Senac\C#\EscolaParticular\obj\Debug\netcoreapp3.1\EscolaParticular.csprojAssemblyReference.cache
 C:\Users\yanna\Documents\Senac\C#\EscolaParticular\obj\Debug\netcoreapp3.1\EscolaParticular.AssemblyInfoInputs.cache
 C:\Users\yanna\Documents\Senac\C#\EscolaParticular\obj\Debug\netcoreapp3.1\EscolaParticular.AssemblyInfo.cs
 C:\Users\yanna\Documents\Senac\C#\EscolaParticular\obj\Debug\netcoreapp3.1\EscolaParticular.csproj.CoreCompileInputs.cache
@@ -45,3 +43,7 @@ C:\Users\yanna\Documents\Senac\C#\EscolaParticular\obj\Debug\netcoreapp3.1\Razor
 C:\Users\yanna\Documents\Senac\C#\EscolaParticular\obj\Debug\netcoreapp3.1\Razor\Views\NotaAluno\EditarNota.cshtml.g.cs
 C:\Users\yanna\Documents\Senac\C#\EscolaParticular\obj\Debug\netcoreapp3.1\Razor\Views\NotaAluno\ListarNota.cshtml.g.cs
 C:\Users\yanna\Documents\Senac\C#\EscolaParticular\obj\Debug\netcoreapp3.1\Razor\Views\NotaAluno\Publicar.cshtml.g.cs
+C:\Users\yanna\Documents\Senac\C#\EscolaParticular\obj\Debug\netcoreapp3.1\EscolaParticular.csproj.AssemblyReference.cache
+C:\Users\yanna\Documents\Senac\C#\EscolaParticular\obj\Debug\netcoreapp3.1\scopedcss\bundle\EscolaParticular.styles.css
+C:\Users\yanna\Documents\Senac\C#\EscolaParticular\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ModalFalha.cshtml.g.cs
+C:\Users\yanna\Documents\Senac\C#\EscolaParticular\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ModalSucesso.cshtml.g.cs

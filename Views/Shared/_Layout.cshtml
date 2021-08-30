@@ -11,7 +11,7 @@
 <body>
     <header class="header border-bottom">
         <nav class="navbar">
-            <img src="/images/logo.png" class="left" />
+            <img src="~/images/logo.png" class="left img-fluid" />
             <a class="header btn" asp-area="" asp-controller="Home" asp-action="Index">Página Principal</a>
             <div class="dropdown">
                 <button class="dropbtn" data-toggle="dropdown">Usuário</button>
@@ -43,6 +43,12 @@
     <footer class="border-top footer">
         &copy; 2021 - Escola Céu Azul
     </footer>
+    <partial name="_ModalSucesso" />
+    <partial name="_ModalFalha" />
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
 </body>
 
 </html>
